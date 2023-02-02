@@ -1,12 +1,10 @@
-namespace DeleteMe.Api
+namespace PlayWithConfigurations.Api
 {
     public static class Program
     {
         public static void Main(string[] args)
         {
             WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
 
             _ = builder.Services.AddControllers();
 
