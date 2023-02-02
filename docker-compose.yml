@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  playing.with.configurations.api:
+    image: ${DOCKER_REGISTRY-}playing-with-configurations
+    build:
+      context: .
+      dockerfile: PlayWithConfigurations.Api/Dockerfile
+    #ports:
+    #  - "54936:80"
