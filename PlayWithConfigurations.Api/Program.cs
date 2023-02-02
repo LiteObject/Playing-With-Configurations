@@ -17,9 +17,9 @@ namespace DeleteMe.Api
             {
                 options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "DeleteMe API",
+                    Title = "Play-With-Configurations API",
                     Version = "v1",
-                    Description = $"Description: My Key - {myKey}"
+                    Description = $"Description: MyKey - {myKey}"
                 });
             });
 
